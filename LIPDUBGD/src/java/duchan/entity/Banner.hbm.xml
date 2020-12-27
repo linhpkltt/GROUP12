@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 30, 2020 2:25:46 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="LIPDUBTRAVELL" name="duchan.entity.Banner" optimistic-lock="version" schema="dbo" table="Banner">
+    <id name="bannerId" type="string">
+      <column length="10" name="BannerId"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="bannerName" type="string">
+      <column length="100" name="BannerName"/>
+    </property>
+    <property name="bannerImage" type="string">
+      <column name="BannerImage"/>
+    </property>
+    <property name="title" type="string">
+      <column length="100" name="Title"/>
+    </property>
+    <property name="bannerLink" type="string">
+      <column name="BannerLink"/>
+    </property>
+  </class>
+</hibernate-mapping>

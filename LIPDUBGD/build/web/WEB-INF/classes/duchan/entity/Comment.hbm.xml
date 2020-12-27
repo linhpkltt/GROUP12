@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 30, 2020 2:25:46 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="LIPDUBTRAVELL" name="duchan.entity.Comment" optimistic-lock="version" schema="dbo" table="Comment">
+    <id name="commentId" type="string">
+      <column length="10" name="CommentId"/>
+      <generator class="assigned"/>
+    </id>
+    <many-to-one class="duchan.entity.Blog" fetch="select" name="blog" lazy="false" >
+      <column length="10" name="BlogId"/>
+    </many-to-one>
+    <many-to-one class="duchan.entity.Userr" fetch="select" name="userr" lazy="false" >
+      <column length="10" name="UserId"/>
+    </many-to-one>
+    <property name="commentContent" type="string">
+      <column name="CommentContent"/>
+    </property>
+    <property name="dateCreated" type="java.sql.Date">
+      <column name="DateCreated"/>
+    </property>
+    <property name="parentId" type="string">
+      <column length="10" name="ParentId"/>
+    </property>
+  </class>
+</hibernate-mapping>

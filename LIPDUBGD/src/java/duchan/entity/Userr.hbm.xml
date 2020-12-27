@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 30, 2020 2:25:46 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="LIPDUBTRAVELL" name="duchan.entity.Userr" optimistic-lock="version" schema="dbo" table="Userr">
+    <id name="userId" type="string">
+      <column length="10" name="UserId"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="userName" type="string">
+      <column length="100" name="UserName"/>
+    </property>
+    <property name="userSex" type="string">
+      <column length="10" name="UserSex"/>
+    </property>
+    <property name="userAddress" type="string">
+      <column length="100" name="UserAddress"/>
+    </property>
+    <property name="userEmail" type="string">
+      <column name="UserEmail"/>
+    </property>
+    <property name="userPhone" type="string">
+      <column length="20" name="UserPhone"/>
+    </property>
+    <property name="userPassword" type="string">
+      <column name="UserPassword"/>
+    </property>
+    <property name="userStatus" type="java.lang.Boolean">
+      <column name="UserStatus"/>
+    </property>
+    <set fetch="select" inverse="true" lazy="false" name="orderrs" table="Orderr">
+      <key>
+        <column length="10" name="UserId"/>
+      </key>
+      <one-to-many class="duchan.entity.Orderr"/>
+    </set>
+    <set fetch="select" inverse="true" lazy="false" name="comments" table="Comment">
+      <key>
+        <column length="10" name="UserId"/>
+      </key>
+      <one-to-many class="duchan.entity.Comment"/>
+    </set>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 30, 2020 2:25:46 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="LIPDUBTRAVELL" name="duchan.entity.Servicee" optimistic-lock="version" schema="dbo" table="Servicee">
+    <id name="serviceId" type="string">
+      <column length="10" name="ServiceId"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="serviceName" type="string">
+      <column length="100" name="ServiceName"/>
+    </property>
+    <property name="descriptions" type="string">
+      <column name="Descriptions"/>
+    </property>
+    <property name="serviceStatus" type="java.lang.Boolean">
+      <column name="ServiceStatus"/>
+    </property>
+    <property name="price" type="float">
+      <column name="Price" precision="53" scale="0"/>
+    </property>
+    <set fetch="select" inverse="true" lazy="false" name="hotelServices" table="HotelService">
+      <key>
+        <column length="10" name="ServiceId"/>
+      </key>
+      <one-to-many class="duchan.entity.HotelService"/>
+    </set>
+  </class>
+</hibernate-mapping>

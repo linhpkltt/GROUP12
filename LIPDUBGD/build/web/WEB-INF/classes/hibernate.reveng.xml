@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="LIPDUBTRAVELL" match-schema="dbo"/>
+  <table-filter match-name="Hotel"/>
+  <table-filter match-name="Orderr"/>
+  <table-filter match-name="Blog"/>
+  <table-filter match-name="Comment"/>
+  <table-filter match-name="Servicee"/>
+  <table-filter match-name="HotelService"/>
+  <table-filter match-name="Userr"/>
+  <table-filter match-name="Banner"/>
+  <table-filter match-name="OrderHotel"/>
+  <table-filter match-name="Setting"/>
+</hibernate-reverse-engineering>

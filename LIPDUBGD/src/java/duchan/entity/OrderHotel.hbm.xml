@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 30, 2020 2:25:46 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="LIPDUBTRAVELL" name="duchan.entity.OrderHotel" optimistic-lock="version" schema="dbo" table="OrderHotel">
+    <id name="orderHotelId" type="int">
+      <column name="OrderHotelId"/>
+      <generator class="identity"/>
+    </id>
+    <many-to-one class="duchan.entity.Hotel" fetch="select" name="hotel" lazy="false" > 
+      <column length="10" name="HotelId"/>
+    </many-to-one>
+    <many-to-one class="duchan.entity.Orderr" fetch="select" name="orderr" lazy="false" >
+      <column length="10" name="OrderId"/>
+    </many-to-one>
+  </class>
+</hibernate-mapping>

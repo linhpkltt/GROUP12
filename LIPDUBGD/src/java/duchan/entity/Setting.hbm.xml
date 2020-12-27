@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 30, 2020 2:25:46 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="LIPDUBTRAVELL" name="duchan.entity.Setting" optimistic-lock="version" schema="dbo" table="Setting">
+    <id name="settingId" type="string">
+      <column length="10" name="SettingId"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="email" type="string">
+      <column name="Email"/>
+    </property>
+    <property name="phoneNumber" type="string">
+      <column length="20" name="PhoneNumber" not-null="true"/>
+    </property>
+    <property name="logo" type="string">
+      <column name="Logo"/>
+    </property>
+    <property name="value" type="string">
+      <column name="Value"/>
+    </property>
+  </class>
+</hibernate-mapping>

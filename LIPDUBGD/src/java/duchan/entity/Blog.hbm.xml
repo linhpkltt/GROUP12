@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 30, 2020 2:25:46 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="LIPDUBTRAVELL" name="duchan.entity.Blog" optimistic-lock="version" schema="dbo" table="Blog">
+    <id name="blogId" type="string">
+      <column length="10" name="BlogId"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="blogName" type="string">
+      <column length="100" name="BlogName"/>
+    </property>
+    <property name="blogContent" type="string">
+      <column name="BlogContent"/>
+    </property>
+    <property name="dateCreated" type="java.sql.Date">
+      <column name="DateCreated"/>
+    </property>
+    <property name="blogStatus" type="java.lang.Boolean">
+      <column name="BlogStatus"/>
+    </property>
+    <set fetch="select" inverse="true" lazy="false" name="comments" table="Comment">
+      <key>
+        <column length="10" name="BlogId"/>
+      </key>
+      <one-to-many class="duchan.entity.Comment"/>
+    </set>
+  </class>
+</hibernate-mapping>
