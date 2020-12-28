@@ -311,11 +311,11 @@
         <div class="thumb3 animated" data-animation="flipInY" data-animation-delay="300">
           <div class="thumbnail clearfix">
             <figure class="">
-              <img src="../images/dung.jpg" alt="" class="img-responsive">
+              <img src="../images/nhasanglap.jpg" alt="" class="img-responsive">
               <div class="over">Marketing Manager</div>
             </figure>
             <div class="caption">
-              <div class="txt1">Jynda Martin</div>
+              <div class="txt1">Linhpk.ltt</div>
               <div class="txt2">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</div>
               <div class="social_sm_wrapper">
                 <ul class="social_sm clearfix">
@@ -339,7 +339,7 @@
               <div class="over">Site Administrator</div>
             </figure>
             <div class="caption">
-              <div class="txt1">George Smith</div>
+              <div class="txt1">Linhpk.ltt</div>
               <div class="txt2">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</div>
               <div class="social_sm_wrapper">
                 <ul class="social_sm clearfix">
@@ -359,11 +359,11 @@
         <div class="thumb3 animated" data-animation="flipInY" data-animation-delay="500">
           <div class="thumbnail clearfix">
             <figure class="">
-              <img src="../images/giang.jpg" alt="" class="img-responsive">
-              <div class="over">Tour Operator</div>
+              <img src="../images/nhasanglap.jpg" alt="" class="img-responsive">
+              <div class="over">Operator</div>
             </figure>
             <div class="caption">
-              <div class="txt1">Bill Amadeus</div>
+              <div class="txt1">Linhpk.ltt</div>
               <div class="txt2">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</div>
               <div class="social_sm_wrapper">
                 <ul class="social_sm clearfix">
@@ -447,7 +447,7 @@
           </form>
         </div>
         </div>
-        <div class="phone2">1-917-338-6831</div>
+        <div class="phone2">1-900-819-999</div>
         <div class="support1"><a href="#">support@templates-support.com</a></div>
       </div>
     </div>

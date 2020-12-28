@@ -19,7 +19,7 @@ public class checkLogin {
             try {
         Session session = HibernateUtil.getSessionFactory().openSession();
         session.getTransaction().begin();
-        Query query = session.createQuery("from Userr where UserName=:userName and convert(varchar(100)), UserPassword=:userPassword");
+        Query query = session.createQuery("from Userr where UserName=:userName and convert(varchar(100), UserPassword)=:userPassword");
         query.setParameter("userName", userName);
         query.setParameter("userPassword", password);
         Userr user  = (Userr) query.uniqueResult();

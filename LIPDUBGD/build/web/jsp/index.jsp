@@ -789,7 +789,7 @@ sod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad min
           </form>
         </div>
         </div>
-        <div class="phone2">1-917-338-6831</div>
+        <div class="phone2">1-900-819-999</div>
         <div class="support1"><a href="#">support@templates-support.com</a></div>
       </div>
     </div>

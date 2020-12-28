@@ -41,8 +41,8 @@ public class LoginController {
     }
 
     @RequestMapping(value = "/login")
-    public ModelAndView login(HttpSession session, @RequestParam("username") String username, @RequestParam("password") String pass) {
-        Userr user = checkLogin1.checkLogin(username, pass);
+    public ModelAndView login(HttpSession session, @RequestParam("userName") String userName, @RequestParam("password") String password) {
+        Userr user = checkLogin1.checkLogin(userName, password);
         if (user !=null) {
             ModelAndView mav = new ModelAndView("redirect:/hotelController/getAllHotel.htm");
 //            ModelAndView mav = new ModelAndView("index");

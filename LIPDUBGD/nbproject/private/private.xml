@@ -26,7 +26,7 @@
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/css/AdminLTE.css</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/Banner.jsp</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/src/java/duchan/model/BannerModel.java</file>
-            <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/User.jsp</file>
+            <file>file:/C:/Users/phung/Downloads/LIPDUBGD/src/java/duchan/controller/HotelController.java</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/NewHotel.jsp</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/NewBanner.jsp</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/Blog.jsp</file>
@@ -35,11 +35,14 @@
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/index.jsp</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/login.jsp</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/css/style.css</file>
+            <file>file:/C:/Users/phung/Downloads/LIPDUBGD/src/java/duchan/model/BlogModel.java</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/css/bootstrap.min.css</file>
+            <file>file:/C:/Users/phung/Downloads/LIPDUBGD/src/java/duchan/model/checkDangky.java</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/UpdateUser.jsp</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/quanlykhachsan.jsp</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/src/java/duchan/controller/LoginController.java</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/UpdateOrderHotel.jsp</file>
+            <file>file:/C:/Users/phung/Downloads/LIPDUBGD/src/java/duchan/entity/Hotel.java</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/NewUser.jsp</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/images/arrow-down.png</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/giohang.jsp</file>
@@ -54,6 +57,7 @@
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/NewOrder.jsp</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/NewOrderHotel.jsp</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/src/java/duchan/until/HibernateUtil.java</file>
+            <file>file:/C:/Users/phung/Downloads/LIPDUBGD/src/java/duchan/model/CommentModel.java</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/contacts.jsp</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/src/java/duchan/model/HotelModel.java</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/src/java/duchan/entity/Setting.hbm.xml</file>
@@ -62,6 +66,7 @@
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/src/java/duchan/controller/homeController.java</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/NewService.jsp</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/UpdateComment.jsp</file>
+            <file>file:/C:/Users/phung/Downloads/LIPDUBGD/src/java/duchan/entity/Blog.java</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/NewComment.jsp</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/front/style.css</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/Hotelservice.jsp</file>
@@ -69,14 +74,18 @@
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/src/java/duchan/controller/OrderHotelController.java</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/tinymce/langs/readme.md</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/UpdateBanner.jsp</file>
+            <file>file:/C:/Users/phung/Downloads/LIPDUBGD/src/java/duchan/entity/Userr.java</file>
+            <file>file:/C:/Users/phung/Downloads/LIPDUBGD/src/java/duchan/model/UserModel.java</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/shopingcart.jsp</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/WEB-INF/applicationContext.xml</file>
+            <file>file:/C:/Users/phung/Downloads/LIPDUBGD/src/java/duchan/controller/BlogController.java</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/WEB-INF/web.xml</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/js/jquery.nestable.js</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/dangky.jsp</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/redirect.jsp</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/Service.jsp</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/Comment.jsp</file>
+            <file>file:/C:/Users/phung/Downloads/LIPDUBGD/src/java/duchan/model/checkLogin.java</file>
             <file>file:/C:/Users/phung/Downloads/LIPDUBGD/web/jsp/footer.jsp</file>
         </group>
     </open-files>

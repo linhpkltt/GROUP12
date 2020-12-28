@@ -104,9 +104,10 @@
                             </li>
                             <!-- User Account: style can be found in dropdown.less -->
                             <li class="dropdown user user-menu">
-                                <a href="${contexPath}/AdminLIPDUBB/admin/login.htm">
+                                <a href="${contexPath}/AdminLIPDUBB/jsp/login.jsp">
+                                    
                                     <img src="images/user2-160x160.jpg" class="user-image" alt="User Image">
-                                    <span class="hidden-xs">Login</span>
+                                    <span class="hidden-xs">Logout</span>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <!-- User image -->
